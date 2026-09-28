@@ -1,0 +1,553 @@
+{
+  "version": 1,
+  "track": "Bokmål",
+  "units": [
+    {
+      "id": "a2-u3-travel",
+      "title": "Getting around",
+      "theme": "Directions and transport",
+      "cefr": "A2",
+      "claimTarget": "A2",
+      "grammarFocus": "Imperatives; til/fra; skal + sted",
+      "lessons": [
+        {
+          "id": "a2-u3-l1-directions",
+          "title": "Directions",
+          "microSkill": "Høyre / venstre",
+          "cefrTarget": "A2",
+          "norskprovenSkills": [
+            "lese",
+            "lytte"
+          ],
+          "canDoIds": [
+            "a2-dir"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "høyre",
+                  "right": "right"
+                },
+                {
+                  "id": "p2",
+                  "left": "venstre",
+                  "right": "left"
+                },
+                {
+                  "id": "p3",
+                  "left": "rett frem",
+                  "right": "straight ahead"
+                },
+                {
+                  "id": "p4",
+                  "left": "hjørne",
+                  "right": "corner"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e2",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "gå rett frem",
+              "choices": [
+                "gå rett frem",
+                "ta til venstre",
+                "sving til høyre",
+                "stopp her"
+              ],
+              "accept": [
+                "gå rett frem"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "translate",
+              "prompt": "Translate: “Turn left”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "ta til venstre",
+                "sving til venstre"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "fillBlank",
+              "prompt": "Ta til ___. (right)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "høyre"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "readAnswer",
+              "prompt": "Where is the station?",
+              "passage": "Stasjonen ligger rett frem, så til venstre.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "straight then left",
+                "only right",
+                "behind you"
+              ],
+              "accept": [
+                "straight then left"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "orderWords",
+              "prompt": "Build: “go straight ahead”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "gå",
+                "rett",
+                "frem",
+                "venstre",
+                "høyre"
+              ],
+              "accept": [
+                "gå rett frem"
+              ]
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "ta til venstre",
+              "accept": [
+                "ta til venstre"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “hjørne”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "corner"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a2-u3-l2-transport",
+          "title": "Transport",
+          "microSkill": "Buss / tog",
+          "cefrTarget": "A2",
+          "norskprovenSkills": [
+            "lese",
+            "lytte",
+            "skrive"
+          ],
+          "canDoIds": [
+            "a2-transport"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "buss",
+                  "right": "bus"
+                },
+                {
+                  "id": "p2",
+                  "left": "tog",
+                  "right": "train"
+                },
+                {
+                  "id": "p3",
+                  "left": "billett",
+                  "right": "ticket"
+                },
+                {
+                  "id": "p4",
+                  "left": "holdeplass",
+                  "right": "stop"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e2",
+              "kind": "translate",
+              "prompt": "Translate: “Where is the bus stop?”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "hvor er bussholdeplassen",
+                "hvor er holdeplassen"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "toget går om ti minutter",
+              "choices": [
+                "toget går om ti minutter",
+                "bussen er her",
+                "jeg trenger billett",
+                "hvor er stasjonen"
+              ],
+              "accept": [
+                "toget går om ti minutter"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "fillBlank",
+              "prompt": "Jeg trenger en ___. (ticket)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "billett"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "readAnswer",
+              "prompt": "How does she travel?",
+              "passage": "Hun tar toget til Bergen i morgen.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "bus",
+                "train",
+                "walk"
+              ],
+              "accept": [
+                "train"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "orderWords",
+              "prompt": "Build: “I take the bus”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "jeg",
+                "tar",
+                "bussen",
+                "toget",
+                "til"
+              ],
+              "accept": [
+                "jeg tar bussen"
+              ]
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "jeg trenger en billett",
+              "accept": [
+                "jeg trenger en billett"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “tog”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "train"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a2-u3-l3-plans",
+          "title": "Travel plans",
+          "microSkill": "Skal til…",
+          "cefrTarget": "A2",
+          "norskprovenSkills": [
+            "skrive",
+            "lese",
+            "lytte"
+          ],
+          "canDoIds": [
+            "a2-plans"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "translate",
+              "prompt": "Translate: “I am going to Oslo”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "jeg skal til oslo",
+                "jeg skal reise til oslo"
+              ]
+            },
+            {
+              "id": "e2",
+              "kind": "fillBlank",
+              "prompt": "Vi ___ til Trondheim i helgen. (are going)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "skal"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "jeg skal til flyplassen",
+              "choices": [
+                "jeg skal til flyplassen",
+                "jeg bor på flyplassen",
+                "toget er forsinket",
+                "hvor er bussen"
+              ],
+              "accept": [
+                "jeg skal til flyplassen"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "orderWords",
+              "prompt": "Build: “We are going to Bergen”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "vi",
+                "skal",
+                "til",
+                "bergen",
+                "fra"
+              ],
+              "accept": [
+                "vi skal til bergen"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "readAnswer",
+              "prompt": "Where is he going?",
+              "passage": "— Hvor skal du?\n— Jeg skal til flyplassen.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "airport",
+                "Bergen",
+                "home"
+              ],
+              "accept": [
+                "airport"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "flyplass",
+                  "right": "airport"
+                },
+                {
+                  "id": "p2",
+                  "left": "forsinket",
+                  "right": "delayed"
+                },
+                {
+                  "id": "p3",
+                  "left": "reise",
+                  "right": "to travel"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "vi skal til trondheim",
+              "accept": [
+                "vi skal til trondheim"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “forsinket”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "delayed"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "a2-u3-travel-cp",
+        "title": "Travel checkpoint",
+        "norskprovenSkills": [
+          "lese",
+          "lytte"
+        ],
+        "exercises": [
+          {
+            "id": "cp1",
+            "kind": "listenChoose",
+            "prompt": "What do you hear?",
+            "skills": [
+              "lytte"
+            ],
+            "audioText": "ta til høyre ved hjørnet",
+            "choices": [
+              "ta til høyre ved hjørnet",
+              "gå rett frem hjem",
+              "toget er billig",
+              "jeg trenger vann"
+            ],
+            "accept": [
+              "ta til høyre ved hjørnet"
+            ],
+            "audioRef": "a2-u3-travel-cp-cp1"
+          },
+          {
+            "id": "cp2",
+            "kind": "translate",
+            "prompt": "Translate: “Where is the train station?”",
+            "skills": [
+              "skrive"
+            ],
+            "accept": [
+              "hvor er togstasjonen",
+              "hvor er stasjonen"
+            ]
+          },
+          {
+            "id": "cp3",
+            "kind": "readAnswer",
+            "prompt": "Transport?",
+            "passage": "Billetten er til buss nummer 37.",
+            "skills": [
+              "lese"
+            ],
+            "choices": [
+              "train",
+              "bus",
+              "taxi"
+            ],
+            "accept": [
+              "bus"
+            ]
+          },
+          {
+            "id": "cp4",
+            "kind": "fillBlank",
+            "prompt": "Gå rett ___.",
+            "skills": [
+              "skrive"
+            ],
+            "accept": [
+              "frem",
+              "fram"
+            ]
+          },
+          {
+            "id": "cp5",
+            "kind": "orderWords",
+            "prompt": "Build: “I am going to the airport”",
+            "skills": [
+              "skrive"
+            ],
+            "orderTokens": [
+              "jeg",
+              "skal",
+              "til",
+              "flyplassen",
+              "bussen"
+            ],
+            "accept": [
+              "jeg skal til flyplassen"
+            ]
+          },
+          {
+            "id": "cp6",
+            "kind": "dictation",
+            "prompt": "Listen and type.",
+            "skills": [
+              "lytte",
+              "skrive"
+            ],
+            "audioText": "toget er forsinket",
+            "accept": [
+              "toget er forsinket"
+            ],
+            "audioRef": "a2-u3-travel-cp-cp6"
+          }
+        ]
+      }
+    }
+  ]
+}

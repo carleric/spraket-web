@@ -1,0 +1,563 @@
+{
+  "version": 1,
+  "track": "Bokmål",
+  "units": [
+    {
+      "id": "a2-u1-daily",
+      "title": "Daily routines",
+      "theme": "Everyday present tense",
+      "cefr": "A2",
+      "claimTarget": "A2",
+      "grammarFocus": "Present tense routines; time phrases (om morgenen)",
+      "lessons": [
+        {
+          "id": "a2-u1-l1-morning",
+          "title": "In the morning",
+          "microSkill": "Om morgenen",
+          "cefrTarget": "A2",
+          "norskprovenSkills": [
+            "lese",
+            "lytte"
+          ],
+          "canDoIds": [
+            "a2-morning"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "om morgenen",
+                  "right": "in the morning"
+                },
+                {
+                  "id": "p2",
+                  "left": "jeg står opp",
+                  "right": "I get up"
+                },
+                {
+                  "id": "p3",
+                  "left": "jeg dusjer",
+                  "right": "I shower"
+                },
+                {
+                  "id": "p4",
+                  "left": "frokost",
+                  "right": "breakfast"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e2",
+              "kind": "translate",
+              "prompt": "Translate: “I get up”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "jeg står opp",
+                "jeg star opp"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "om morgenen spiser jeg frokost",
+              "choices": [
+                "om morgenen spiser jeg frokost",
+                "om kvelden sover jeg",
+                "jeg står opp sent",
+                "jeg jobber hjemme"
+              ],
+              "accept": [
+                "om morgenen spiser jeg frokost"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "fillBlank",
+              "prompt": "Om ___ leser jeg avisen. (morning)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "morgenen"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "orderWords",
+              "prompt": "Build: “I shower in the morning”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "jeg",
+                "dusjer",
+                "om",
+                "morgenen",
+                "kvelden"
+              ],
+              "accept": [
+                "jeg dusjer om morgenen"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "readAnswer",
+              "prompt": "When does Alex eat breakfast?",
+              "passage": "Alex står opp tidlig. Om morgenen spiser han frokost.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "evening",
+                "morning",
+                "night"
+              ],
+              "accept": [
+                "morning"
+              ]
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "jeg står opp",
+              "accept": [
+                "jeg står opp",
+                "jeg star opp"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “frokost”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "breakfast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a2-u1-l2-work",
+          "title": "Work & study",
+          "microSkill": "Jobbe / studere",
+          "cefrTarget": "A2",
+          "norskprovenSkills": [
+            "lese",
+            "skrive",
+            "lytte"
+          ],
+          "canDoIds": [
+            "a2-work"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "translate",
+              "prompt": "Translate: “I work in Oslo”",
+              "skills": [
+                "skrive"
+              ],
+              "wordBank": [
+                "jeg",
+                "jobber",
+                "i",
+                "oslo",
+                "på"
+              ],
+              "accept": [
+                "jeg jobber i oslo"
+              ]
+            },
+            {
+              "id": "e2",
+              "kind": "fillBlank",
+              "prompt": "Hun ___ norsk. (studies)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "studerer"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "jeg jobber hjemmefra",
+              "choices": [
+                "jeg jobber hjemmefra",
+                "jeg bor hjemme",
+                "jeg sover hjemme",
+                "jeg studerer matte"
+              ],
+              "accept": [
+                "jeg jobber hjemmefra"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "readAnswer",
+              "prompt": "Where does Eva work?",
+              "passage": "Eva studerer på universitetet, men hun jobber også på kafé.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "only university",
+                "café (also)",
+                "hospital"
+              ],
+              "accept": [
+                "café (also)",
+                "cafe (also)"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "orderWords",
+              "prompt": "Build: “She studies Norwegian”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "hun",
+                "studerer",
+                "norsk",
+                "jobber",
+                "engelsk"
+              ],
+              "accept": [
+                "hun studerer norsk"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "jobbe",
+                  "right": "to work"
+                },
+                {
+                  "id": "p2",
+                  "left": "studere",
+                  "right": "to study"
+                },
+                {
+                  "id": "p3",
+                  "left": "hjemmefra",
+                  "right": "from home"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "jeg studerer norsk",
+              "accept": [
+                "jeg studerer norsk"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “Jeg jobber i Bergen”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "i work in bergen",
+                "i'm working in bergen",
+                "i am working in bergen"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a2-u1-l3-evening",
+          "title": "Evening habits",
+          "microSkill": "Om kvelden",
+          "cefrTarget": "A2",
+          "norskprovenSkills": [
+            "lese",
+            "lytte",
+            "skrive"
+          ],
+          "canDoIds": [
+            "a2-evening"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "om kvelden",
+                  "right": "in the evening"
+                },
+                {
+                  "id": "p2",
+                  "left": "jeg ser på tv",
+                  "right": "I watch TV"
+                },
+                {
+                  "id": "p3",
+                  "left": "jeg leser",
+                  "right": "I read"
+                },
+                {
+                  "id": "p4",
+                  "left": "jeg sover",
+                  "right": "I sleep"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e2",
+              "kind": "translate",
+              "prompt": "Translate: “in the evening”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "om kvelden"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "om kvelden leser jeg",
+              "choices": [
+                "om kvelden leser jeg",
+                "om morgenen jogger jeg",
+                "jeg sover sent",
+                "jeg jobber natten"
+              ],
+              "accept": [
+                "om kvelden leser jeg"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "fillBlank",
+              "prompt": "Om kvelden ___ jeg på tv.",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "ser"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "orderWords",
+              "prompt": "Build: “I sleep early”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "jeg",
+                "sover",
+                "tidlig",
+                "sent",
+                "leser"
+              ],
+              "accept": [
+                "jeg sover tidlig"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "readAnswer",
+              "prompt": "Does Kim watch TV at night?",
+              "passage": "Om kvelden ser Kim på tv, deretter sover han.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "Yes",
+                "No"
+              ],
+              "accept": [
+                "Yes",
+                "yes"
+              ]
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "om kvelden sover jeg",
+              "accept": [
+                "om kvelden sover jeg"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “Jeg leser om kvelden”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "i read in the evening",
+                "i'm reading in the evening"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "a2-u1-daily-cp",
+        "title": "Daily routines checkpoint",
+        "norskprovenSkills": [
+          "lese",
+          "lytte"
+        ],
+        "exercises": [
+          {
+            "id": "cp1",
+            "kind": "readAnswer",
+            "prompt": "When does she get up?",
+            "passage": "Sara står opp om morgenen og dusjer før frokost.",
+            "skills": [
+              "lese"
+            ],
+            "choices": [
+              "morning",
+              "evening",
+              "never"
+            ],
+            "accept": [
+              "morning"
+            ]
+          },
+          {
+            "id": "cp2",
+            "kind": "listenChoose",
+            "prompt": "What do you hear?",
+            "skills": [
+              "lytte"
+            ],
+            "audioText": "jeg jobber i oslo",
+            "choices": [
+              "jeg jobber i oslo",
+              "jeg bor i oslo",
+              "jeg studerer i oslo",
+              "jeg sover i oslo"
+            ],
+            "accept": [
+              "jeg jobber i oslo"
+            ],
+            "audioRef": "a2-u1-daily-cp-cp2"
+          },
+          {
+            "id": "cp3",
+            "kind": "translate",
+            "prompt": "Translate: “I watch TV in the evening”",
+            "skills": [
+              "skrive"
+            ],
+            "accept": [
+              "jeg ser på tv om kvelden",
+              "jeg ser på TV om kvelden"
+            ]
+          },
+          {
+            "id": "cp4",
+            "kind": "fillBlank",
+            "prompt": "Han ___ norsk på kvelden. (studies)",
+            "skills": [
+              "skrive"
+            ],
+            "accept": [
+              "studerer"
+            ]
+          },
+          {
+            "id": "cp5",
+            "kind": "orderWords",
+            "prompt": "Build: “I get up early”",
+            "skills": [
+              "skrive"
+            ],
+            "orderTokens": [
+              "jeg",
+              "står",
+              "opp",
+              "tidlig",
+              "sent"
+            ],
+            "accept": [
+              "jeg står opp tidlig",
+              "jeg star opp tidlig"
+            ]
+          },
+          {
+            "id": "cp6",
+            "kind": "dictation",
+            "prompt": "Listen and type.",
+            "skills": [
+              "lytte",
+              "skrive"
+            ],
+            "audioText": "om morgenen spiser jeg",
+            "accept": [
+              "om morgenen spiser jeg"
+            ],
+            "audioRef": "a2-u1-daily-cp-cp6"
+          }
+        ]
+      }
+    }
+  ]
+}

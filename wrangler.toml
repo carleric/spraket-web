@@ -1,0 +1,6 @@
+# Cloudflare Pages — used by `wrangler pages deploy` and dashboard Git builds
+# that read pages_build_output_dir. Dashboard build command still required
+# when connecting the GitHub repo (see README).
+name = "spraket"
+compatibility_date = "2026-01-01"
+pages_build_output_dir = "apps/web/dist"

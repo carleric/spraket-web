@@ -1,0 +1,561 @@
+{
+  "version": 1,
+  "track": "Bokmål",
+  "units": [
+    {
+      "id": "a2-u2-shopping",
+      "title": "Shopping & prices",
+      "theme": "Stores and cost",
+      "cefr": "A2",
+      "claimTarget": "A2",
+      "grammarFocus": "Vil ha / koster; denne/det; polite requests",
+      "lessons": [
+        {
+          "id": "a2-u2-l1-store",
+          "title": "In the shop",
+          "microSkill": "Butikk vocabulary",
+          "cefrTarget": "A2",
+          "norskprovenSkills": [
+            "lese",
+            "lytte"
+          ],
+          "canDoIds": [
+            "a2-shop"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "butikk",
+                  "right": "shop"
+                },
+                {
+                  "id": "p2",
+                  "left": "pris",
+                  "right": "price"
+                },
+                {
+                  "id": "p3",
+                  "left": "billig",
+                  "right": "cheap"
+                },
+                {
+                  "id": "p4",
+                  "left": "dyr",
+                  "right": "expensive"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e2",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "hvor mye koster denne",
+              "choices": [
+                "hvor mye koster denne",
+                "hvor bor du",
+                "hvor mange er det",
+                "hva heter butikken"
+              ],
+              "accept": [
+                "hvor mye koster denne"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "translate",
+              "prompt": "Translate: “How much does this cost?”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "hvor mye koster denne",
+                "hvor mye koster dette"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "fillBlank",
+              "prompt": "Det er for ___. (expensive)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "dyrt",
+                "dyr"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "readAnswer",
+              "prompt": "Is the jacket cheap?",
+              "passage": "Jakken koster 900 kroner. Det er litt dyrt.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "Yes, cheap",
+                "No, a bit expensive",
+                "Free"
+              ],
+              "accept": [
+                "No, a bit expensive"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "orderWords",
+              "prompt": "Build: “It is cheap”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "det",
+                "er",
+                "billig",
+                "dyrt",
+                "pris"
+              ],
+              "accept": [
+                "det er billig"
+              ]
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "det er billig",
+              "accept": [
+                "det er billig"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “pris”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "price"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a2-u2-l2-size-color",
+          "title": "Size & colour",
+          "microSkill": "Størrelse / farge",
+          "cefrTarget": "A2",
+          "norskprovenSkills": [
+            "lese",
+            "skrive",
+            "lytte"
+          ],
+          "canDoIds": [
+            "a2-size"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "størrelse",
+                  "right": "size"
+                },
+                {
+                  "id": "p2",
+                  "left": "rød",
+                  "right": "red"
+                },
+                {
+                  "id": "p3",
+                  "left": "blå",
+                  "right": "blue"
+                },
+                {
+                  "id": "p4",
+                  "left": "stor",
+                  "right": "big"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e2",
+              "kind": "translate",
+              "prompt": "Translate: “Do you have this in blue?”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "har du denne i blått",
+                "har du denne i blå",
+                "har dere denne i blått"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "har dere denne i stor",
+              "choices": [
+                "har dere denne i stor",
+                "hvor mye koster det",
+                "jeg vil ha rød",
+                "det er for dyrt"
+              ],
+              "accept": [
+                "har dere denne i stor"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "fillBlank",
+              "prompt": "Jeg trenger en ___ størrelse. (larger)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "større"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "orderWords",
+              "prompt": "Build: “a red jacket”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "en",
+                "rød",
+                "jakke",
+                "blå",
+                "pris"
+              ],
+              "accept": [
+                "en rød jakke"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "readAnswer",
+              "prompt": "What colour does she want?",
+              "passage": "— Har dere denne i blått?\n— Ja, her er en blå.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "red",
+                "blue",
+                "green"
+              ],
+              "accept": [
+                "blue"
+              ]
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "en rød jakke",
+              "accept": [
+                "en rød jakke",
+                "en rod jakke"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “størrelse”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "size"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a2-u2-l3-pay",
+          "title": "Paying",
+          "microSkill": "Kort / kontant",
+          "cefrTarget": "A2",
+          "norskprovenSkills": [
+            "lese",
+            "lytte",
+            "snakke"
+          ],
+          "canDoIds": [
+            "a2-pay"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "kort",
+                  "right": "card"
+                },
+                {
+                  "id": "p2",
+                  "left": "kontant",
+                  "right": "cash"
+                },
+                {
+                  "id": "p3",
+                  "left": "kvittering",
+                  "right": "receipt"
+                },
+                {
+                  "id": "p4",
+                  "left": "betale",
+                  "right": "to pay"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e2",
+              "kind": "translate",
+              "prompt": "Translate: “Can I pay by card?”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "kan jeg betale med kort",
+                "kan jeg betale kort"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "vil du ha kvittering",
+              "choices": [
+                "vil du ha kvittering",
+                "vil du ha kaffe",
+                "hvor mye koster det",
+                "kan jeg betale"
+              ],
+              "accept": [
+                "vil du ha kvittering"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "fillBlank",
+              "prompt": "Jeg betaler med ___. (card)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "kort"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "readAnswer",
+              "prompt": "How does he pay?",
+              "passage": "Han betaler kontant og tar kvitteringen.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "card",
+                "cash",
+                "invoice"
+              ],
+              "accept": [
+                "cash"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "orderWords",
+              "prompt": "Build: “I pay with card”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "jeg",
+                "betaler",
+                "med",
+                "kort",
+                "kontant"
+              ],
+              "accept": [
+                "jeg betaler med kort"
+              ]
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "kan jeg betale med kort",
+              "accept": [
+                "kan jeg betale med kort"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “kvittering”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "receipt"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "a2-u2-shopping-cp",
+        "title": "Shopping checkpoint",
+        "norskprovenSkills": [
+          "lese",
+          "lytte"
+        ],
+        "exercises": [
+          {
+            "id": "cp1",
+            "kind": "listenChoose",
+            "prompt": "What do you hear?",
+            "skills": [
+              "lytte"
+            ],
+            "audioText": "hvor mye koster jakken",
+            "choices": [
+              "hvor mye koster jakken",
+              "hvor bor jakken",
+              "hva heter butikken",
+              "det er billig"
+            ],
+            "accept": [
+              "hvor mye koster jakken"
+            ],
+            "audioRef": "a2-u2-shopping-cp-cp1"
+          },
+          {
+            "id": "cp2",
+            "kind": "translate",
+            "prompt": "Translate: “It is too expensive”",
+            "skills": [
+              "skrive"
+            ],
+            "accept": [
+              "det er for dyrt",
+              "det er for dyr"
+            ]
+          },
+          {
+            "id": "cp3",
+            "kind": "readAnswer",
+            "prompt": "Payment method?",
+            "passage": "Kunden betaler med kort og får kvittering.",
+            "skills": [
+              "lese"
+            ],
+            "choices": [
+              "cash",
+              "card",
+              "crypto"
+            ],
+            "accept": [
+              "card"
+            ]
+          },
+          {
+            "id": "cp4",
+            "kind": "fillBlank",
+            "prompt": "Har dere denne i ___? (blue)",
+            "skills": [
+              "skrive"
+            ],
+            "accept": [
+              "blått",
+              "blå"
+            ]
+          },
+          {
+            "id": "cp5",
+            "kind": "orderWords",
+            "prompt": "Build: “Can I pay cash?”",
+            "skills": [
+              "skrive"
+            ],
+            "orderTokens": [
+              "kan",
+              "jeg",
+              "betale",
+              "kontant",
+              "kort"
+            ],
+            "accept": [
+              "kan jeg betale kontant"
+            ]
+          },
+          {
+            "id": "cp6",
+            "kind": "dictation",
+            "prompt": "Listen and type.",
+            "skills": [
+              "lytte",
+              "skrive"
+            ],
+            "audioText": "det er litt dyrt",
+            "accept": [
+              "det er litt dyrt"
+            ],
+            "audioRef": "a2-u2-shopping-cp-cp6"
+          }
+        ]
+      }
+    }
+  ]
+}

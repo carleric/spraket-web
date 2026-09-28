@@ -1,0 +1,572 @@
+{
+  "version": 1,
+  "track": "Bokmål",
+  "units": [
+    {
+      "id": "a1-u2-numbers",
+      "title": "Numbers & basic questions",
+      "theme": "Counting and asking",
+      "cefr": "A1",
+      "claimTarget": "A1",
+      "grammarFocus": "Cardinals 1–10; hvor mye / hvor mange",
+      "lessons": [
+        {
+          "id": "a1-u2-l1-1to5",
+          "title": "One to five",
+          "microSkill": "Cardinals 1–5",
+          "cefrTarget": "A1",
+          "norskprovenSkills": [
+            "lese",
+            "lytte"
+          ],
+          "canDoIds": [
+            "a1-numbers-1-5"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "matchPairs",
+              "prompt": "Match numbers.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "en",
+                  "right": "one"
+                },
+                {
+                  "id": "p2",
+                  "left": "to",
+                  "right": "two"
+                },
+                {
+                  "id": "p3",
+                  "left": "tre",
+                  "right": "three"
+                },
+                {
+                  "id": "p4",
+                  "left": "fire",
+                  "right": "four"
+                },
+                {
+                  "id": "p5",
+                  "left": "fem",
+                  "right": "five"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e2",
+              "kind": "listenChoose",
+              "prompt": "What number?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "tre",
+              "choices": [
+                "to",
+                "tre",
+                "fire",
+                "fem"
+              ],
+              "accept": [
+                "tre"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "translate",
+              "prompt": "Translate: “two”",
+              "skills": [
+                "skrive"
+              ],
+              "wordBank": [
+                "en",
+                "to",
+                "tre",
+                "fire"
+              ],
+              "accept": [
+                "to"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "fillBlank",
+              "prompt": "___ = 4",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "fire"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "orderWords",
+              "prompt": "Build: “one two three”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "en",
+                "to",
+                "tre",
+                "fem"
+              ],
+              "accept": [
+                "en to tre"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "en to tre",
+              "accept": [
+                "en to tre"
+              ]
+            },
+            {
+              "id": "e7",
+              "kind": "readAnswer",
+              "prompt": "How many apples?",
+              "passage": "Jeg har fem epler.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "3",
+                "4",
+                "5",
+                "2"
+              ],
+              "accept": [
+                "5"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “fire”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "four"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u2-l2-6to10",
+          "title": "Six to ten",
+          "microSkill": "Cardinals 6–10",
+          "cefrTarget": "A1",
+          "norskprovenSkills": [
+            "lese",
+            "lytte",
+            "skrive"
+          ],
+          "canDoIds": [
+            "a1-numbers-6-10"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "seks",
+                  "right": "six"
+                },
+                {
+                  "id": "p2",
+                  "left": "sju",
+                  "right": "seven"
+                },
+                {
+                  "id": "p3",
+                  "left": "åtte",
+                  "right": "eight"
+                },
+                {
+                  "id": "p4",
+                  "left": "ni",
+                  "right": "nine"
+                },
+                {
+                  "id": "p5",
+                  "left": "ti",
+                  "right": "ten"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e2",
+              "kind": "listenChoose",
+              "prompt": "What number?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "åtte",
+              "choices": [
+                "seks",
+                "sju",
+                "åtte",
+                "ni"
+              ],
+              "accept": [
+                "åtte"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "translate",
+              "prompt": "Translate: “ten”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "ti"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "fillBlank",
+              "prompt": "___ = 7 (also: syv)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "sju",
+                "syv"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "orderWords",
+              "prompt": "Build: “eight nine ten”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "åtte",
+                "ni",
+                "ti",
+                "seks"
+              ],
+              "accept": [
+                "åtte ni ti"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "seks sju åtte",
+              "accept": [
+                "seks sju åtte"
+              ]
+            },
+            {
+              "id": "e7",
+              "kind": "readAnswer",
+              "prompt": "Which is largest?",
+              "passage": "seks, ni, åtte",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "seks",
+                "ni",
+                "åtte"
+              ],
+              "accept": [
+                "ni"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “ti”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "ten"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u2-l3-how-many",
+          "title": "How many?",
+          "microSkill": "Hvor mange",
+          "cefrTarget": "A1",
+          "norskprovenSkills": [
+            "lese",
+            "skrive",
+            "lytte"
+          ],
+          "canDoIds": [
+            "a1-how-many"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "translate",
+              "prompt": "Translate: “How many?”",
+              "skills": [
+                "skrive"
+              ],
+              "wordBank": [
+                "hvor",
+                "mange",
+                "mye",
+                "er"
+              ],
+              "accept": [
+                "hvor mange"
+              ]
+            },
+            {
+              "id": "e2",
+              "kind": "fillBlank",
+              "prompt": "Hvor ___ koster det? (how much does it cost)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "mye"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "hvor mange er dere",
+              "choices": [
+                "hvor mange er dere",
+                "hvor mye er det",
+                "hvor bor dere",
+                "hvor gammel er du"
+              ],
+              "accept": [
+                "hvor mange er dere"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "readAnswer",
+              "prompt": "How many people?",
+              "passage": "— Hvor mange er dere?\n— Vi er tre.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "2",
+                "3",
+                "4"
+              ],
+              "accept": [
+                "3"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "orderWords",
+              "prompt": "Build: “How many are you?”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "hvor",
+                "mange",
+                "er",
+                "dere",
+                "vi"
+              ],
+              "accept": [
+                "hvor mange er dere"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "hvor mange",
+                  "right": "how many"
+                },
+                {
+                  "id": "p2",
+                  "left": "hvor mye",
+                  "right": "how much"
+                },
+                {
+                  "id": "p3",
+                  "left": "vi er tre",
+                  "right": "we are three"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "hvor mye koster det",
+              "accept": [
+                "hvor mye koster det"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “Vi er to”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "we are two",
+                "we're two"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "a1-u2-numbers-cp",
+        "title": "Numbers checkpoint",
+        "norskprovenSkills": [
+          "lese",
+          "lytte"
+        ],
+        "exercises": [
+          {
+            "id": "cp1",
+            "kind": "listenChoose",
+            "prompt": "Number?",
+            "skills": [
+              "lytte"
+            ],
+            "audioText": "ni",
+            "choices": [
+              "sju",
+              "åtte",
+              "ni",
+              "ti"
+            ],
+            "accept": [
+              "ni"
+            ],
+            "audioRef": "a1-u2-numbers-cp-cp1"
+          },
+          {
+            "id": "cp2",
+            "kind": "translate",
+            "prompt": "Translate: “how much”",
+            "skills": [
+              "skrive",
+              "lese"
+            ],
+            "accept": [
+              "hvor mye"
+            ]
+          },
+          {
+            "id": "cp3",
+            "kind": "readAnswer",
+            "prompt": "Total?",
+            "passage": "En pluss fire er fem.",
+            "skills": [
+              "lese"
+            ],
+            "choices": [
+              "4",
+              "5",
+              "6"
+            ],
+            "accept": [
+              "5"
+            ]
+          },
+          {
+            "id": "cp4",
+            "kind": "fillBlank",
+            "prompt": "___ = 8",
+            "skills": [
+              "skrive"
+            ],
+            "accept": [
+              "åtte"
+            ]
+          },
+          {
+            "id": "cp5",
+            "kind": "orderWords",
+            "prompt": "Build: “we are ten”",
+            "skills": [
+              "skrive"
+            ],
+            "orderTokens": [
+              "vi",
+              "er",
+              "ti",
+              "dere",
+              "ni"
+            ],
+            "accept": [
+              "vi er ti"
+            ]
+          },
+          {
+            "id": "cp6",
+            "kind": "dictation",
+            "prompt": "Listen and type.",
+            "skills": [
+              "lytte",
+              "skrive"
+            ],
+            "audioText": "hvor mange epler",
+            "accept": [
+              "hvor mange epler"
+            ],
+            "audioRef": "a1-u2-numbers-cp-cp6"
+          }
+        ]
+      }
+    }
+  ]
+}

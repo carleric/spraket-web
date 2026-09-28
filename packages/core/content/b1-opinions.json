@@ -1,0 +1,552 @@
+{
+  "version": 1,
+  "track": "Bokmål",
+  "units": [
+    {
+      "id": "b1-u1-opinions",
+      "title": "Opinions & reasons",
+      "theme": "Agreeing and explaining",
+      "cefr": "B1",
+      "claimTarget": "B1",
+      "grammarFocus": "Fordi / selv om / synes; subordinate clauses",
+      "lessons": [
+        {
+          "id": "b1-u1-l1-synes",
+          "title": "I think…",
+          "microSkill": "Synes / tror",
+          "cefrTarget": "B1",
+          "norskprovenSkills": [
+            "lese",
+            "skrive"
+          ],
+          "canDoIds": [
+            "b1-opinion"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "jeg synes",
+                  "right": "I think (opinion)"
+                },
+                {
+                  "id": "p2",
+                  "left": "jeg tror",
+                  "right": "I believe / think (guess)"
+                },
+                {
+                  "id": "p3",
+                  "left": "enig",
+                  "right": "in agreement"
+                },
+                {
+                  "id": "p4",
+                  "left": "uenig",
+                  "right": "in disagreement"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e2",
+              "kind": "translate",
+              "prompt": "Translate: “I think it is interesting”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "jeg synes det er interessant"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "fillBlank",
+              "prompt": "Jeg ___ filmen var bra. (think/opinion)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "synes"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "readAnswer",
+              "prompt": "Does Mia agree?",
+              "passage": "— Filmen var kjedelig.\n— Jeg er enig.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "Yes",
+                "No",
+                "Unclear"
+              ],
+              "accept": [
+                "Yes",
+                "yes"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "orderWords",
+              "prompt": "Build: “I disagree”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "jeg",
+                "er",
+                "uenig",
+                "enig",
+                "tror"
+              ],
+              "accept": [
+                "jeg er uenig"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "jeg synes det er viktig",
+              "choices": [
+                "jeg synes det er viktig",
+                "jeg tror det regner",
+                "jeg er uenig",
+                "det er kjedelig"
+              ],
+              "accept": [
+                "jeg synes det er viktig"
+              ]
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "jeg er enig",
+              "accept": [
+                "jeg er enig"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “uenig”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "disagree",
+                "in disagreement",
+                "not agree"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b1-u1-l2-fordi",
+          "title": "Because / although",
+          "microSkill": "Fordi / selv om",
+          "cefrTarget": "B1",
+          "norskprovenSkills": [
+            "lese",
+            "skrive",
+            "lytte"
+          ],
+          "canDoIds": [
+            "b1-reason"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "translate",
+              "prompt": "Translate: “I stay home because I am tired”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "jeg blir hjemme fordi jeg er trøtt",
+                "jeg er hjemme fordi jeg er trøtt"
+              ]
+            },
+            {
+              "id": "e2",
+              "kind": "fillBlank",
+              "prompt": "Jeg går ut ___ det regner. (although)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "selv om"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "jeg lærer norsk fordi jeg skal jobbe her",
+              "choices": [
+                "jeg lærer norsk fordi jeg skal jobbe her",
+                "jeg lærer norsk selv om jeg skal reise",
+                "jeg synes norsk er vanskelig",
+                "jeg er enig"
+              ],
+              "accept": [
+                "jeg lærer norsk fordi jeg skal jobbe her"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "readAnswer",
+              "prompt": "Why does he study?",
+              "passage": "Han studerer norsk fordi han skal ta Norskprøven.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "for fun only",
+                "for Norskprøven",
+                "he hates Norwegian"
+              ],
+              "accept": [
+                "for Norskprøven"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "orderWords",
+              "prompt": "Build: “although it is cold”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "selv",
+                "om",
+                "det",
+                "er",
+                "kaldt",
+                "fordi"
+              ],
+              "accept": [
+                "selv om det er kaldt"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "fordi",
+                  "right": "because"
+                },
+                {
+                  "id": "p2",
+                  "left": "selv om",
+                  "right": "although"
+                },
+                {
+                  "id": "p3",
+                  "left": "derfor",
+                  "right": "therefore"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "selv om det regner",
+              "accept": [
+                "selv om det regner"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “derfor”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "therefore",
+                "so",
+                "that's why",
+                "thats why"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b1-u1-l3-discuss",
+          "title": "Short discussion",
+          "microSkill": "On the one hand…",
+          "cefrTarget": "B1",
+          "norskprovenSkills": [
+            "lese",
+            "skrive",
+            "snakke"
+          ],
+          "canDoIds": [
+            "b1-discuss"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "på den ene siden",
+                  "right": "on the one hand"
+                },
+                {
+                  "id": "p2",
+                  "left": "på den andre siden",
+                  "right": "on the other hand"
+                },
+                {
+                  "id": "p3",
+                  "left": "for eksempel",
+                  "right": "for example"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e2",
+              "kind": "translate",
+              "prompt": "Translate: “for example”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "for eksempel"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "fillBlank",
+              "prompt": "På den ___ siden er det praktisk. (one)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "ene"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "readAnswer",
+              "prompt": "Speaker's stance?",
+              "passage": "På den ene siden er hjemmekontor fleksibelt. På den andre siden savner jeg kollegene.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "Only positive",
+                "Balanced / mixed",
+                "Only negative"
+              ],
+              "accept": [
+                "Balanced / mixed"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "orderWords",
+              "prompt": "Build: “on the other hand”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "på",
+                "den",
+                "andre",
+                "siden",
+                "ene"
+              ],
+              "accept": [
+                "på den andre siden"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "på den andre siden er det dyrt",
+              "choices": [
+                "på den andre siden er det dyrt",
+                "på den ene siden er det billig",
+                "jeg er enig",
+                "fordi det regner"
+              ],
+              "accept": [
+                "på den andre siden er det dyrt"
+              ]
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "for eksempel i oslo",
+              "accept": [
+                "for eksempel i oslo"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “på den ene siden”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "on the one hand"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "b1-u1-opinions-cp",
+        "title": "Opinions checkpoint",
+        "norskprovenSkills": [
+          "lese",
+          "lytte"
+        ],
+        "exercises": [
+          {
+            "id": "cp1",
+            "kind": "listenChoose",
+            "prompt": "What do you hear?",
+            "skills": [
+              "lytte"
+            ],
+            "audioText": "jeg synes norsk er interessant",
+            "choices": [
+              "jeg synes norsk er interessant",
+              "jeg tror det snør",
+              "jeg er uenig alltid",
+              "det er kjedelig"
+            ],
+            "accept": [
+              "jeg synes norsk er interessant"
+            ],
+            "audioRef": "b1-u1-opinions-cp-cp1"
+          },
+          {
+            "id": "cp2",
+            "kind": "translate",
+            "prompt": "Translate: “I study because I need the exam”",
+            "skills": [
+              "skrive"
+            ],
+            "accept": [
+              "jeg studerer fordi jeg trenger eksamen",
+              "jeg studerer fordi jeg trenger prøven"
+            ]
+          },
+          {
+            "id": "cp3",
+            "kind": "readAnswer",
+            "prompt": "Connector meaning?",
+            "passage": "Hun går på jobb selv om hun er syk.",
+            "skills": [
+              "lese"
+            ],
+            "choices": [
+              "because",
+              "although",
+              "therefore"
+            ],
+            "accept": [
+              "although"
+            ]
+          },
+          {
+            "id": "cp4",
+            "kind": "fillBlank",
+            "prompt": "Jeg er ___ med deg. (agree)",
+            "skills": [
+              "skrive"
+            ],
+            "accept": [
+              "enig"
+            ]
+          },
+          {
+            "id": "cp5",
+            "kind": "orderWords",
+            "prompt": "Build: “on the one hand”",
+            "skills": [
+              "skrive"
+            ],
+            "orderTokens": [
+              "på",
+              "den",
+              "ene",
+              "siden",
+              "andre"
+            ],
+            "accept": [
+              "på den ene siden"
+            ]
+          },
+          {
+            "id": "cp6",
+            "kind": "dictation",
+            "prompt": "Listen and type.",
+            "skills": [
+              "lytte",
+              "skrive"
+            ],
+            "audioText": "jeg er uenig",
+            "accept": [
+              "jeg er uenig"
+            ],
+            "audioRef": "b1-u1-opinions-cp-cp6"
+          }
+        ]
+      }
+    }
+  ]
+}

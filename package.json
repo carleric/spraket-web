@@ -1,0 +1,28 @@
+{
+  "name": "spraket-web",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Språket — Bokmål learning (TypeScript core + React PWA)",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "bootstrap": "node scripts/worktree.mjs bootstrap",
+    "install:app": "node scripts/worktree.mjs install",
+    "dev": "node scripts/worktree.mjs run dev",
+    "build": "node scripts/worktree.mjs run build",
+    "build:web": "node scripts/worktree.mjs run build:web",
+    "test": "node scripts/worktree.mjs run test",
+    "typecheck": "node scripts/worktree.mjs run typecheck",
+    "worktree:info": "node scripts/worktree.mjs info",
+    "doctor": "node scripts/worktree.mjs info",
+    "deploy": "node scripts/deploy.mjs cloudflare",
+    "deploy:cloudflare": "node scripts/deploy.mjs cloudflare",
+    "deploy:vercel": "node scripts/deploy.mjs vercel"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.15.0"
+}

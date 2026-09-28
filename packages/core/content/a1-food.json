@@ -1,0 +1,560 @@
+{
+  "version": 1,
+  "track": "Bokmål",
+  "units": [
+    {
+      "id": "a1-u3-food",
+      "title": "Food & café",
+      "theme": "Ordering and drinks",
+      "cefr": "A1",
+      "claimTarget": "A1",
+      "grammarFocus": "Jeg vil ha…; takk / vær så god",
+      "lessons": [
+        {
+          "id": "a1-u3-l1-drinks",
+          "title": "Drinks",
+          "microSkill": "Kaffe, te, vann",
+          "cefrTarget": "A1",
+          "norskprovenSkills": [
+            "lese",
+            "lytte"
+          ],
+          "canDoIds": [
+            "a1-drinks"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "matchPairs",
+              "prompt": "Match drinks.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "kaffe",
+                  "right": "coffee"
+                },
+                {
+                  "id": "p2",
+                  "left": "te",
+                  "right": "tea"
+                },
+                {
+                  "id": "p3",
+                  "left": "vann",
+                  "right": "water"
+                },
+                {
+                  "id": "p4",
+                  "left": "melk",
+                  "right": "milk"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e2",
+              "kind": "listenChoose",
+              "prompt": "What drink?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "kaffe",
+              "choices": [
+                "te",
+                "kaffe",
+                "vann",
+                "melk"
+              ],
+              "accept": [
+                "kaffe"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "translate",
+              "prompt": "Translate: “water”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "vann"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "fillBlank",
+              "prompt": "En ___ takk. (a coffee please)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "kaffe"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "orderWords",
+              "prompt": "Build: “tea please”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "te",
+                "takk",
+                "kaffe",
+                "vann"
+              ],
+              "accept": [
+                "te takk"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "vann takk",
+              "accept": [
+                "vann takk"
+              ]
+            },
+            {
+              "id": "e7",
+              "kind": "readAnswer",
+              "prompt": "What does she order?",
+              "passage": "Jeg vil ha te, takk.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "coffee",
+                "tea",
+                "milk"
+              ],
+              "accept": [
+                "tea"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “melk”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "milk"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u3-l2-ordering",
+          "title": "I would like…",
+          "microSkill": "Jeg vil ha",
+          "cefrTarget": "A1",
+          "norskprovenSkills": [
+            "skrive",
+            "lese",
+            "snakke"
+          ],
+          "canDoIds": [
+            "a1-order"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "translate",
+              "prompt": "Translate: “I would like coffee”",
+              "skills": [
+                "skrive"
+              ],
+              "wordBank": [
+                "jeg",
+                "vil",
+                "ha",
+                "kaffe",
+                "te"
+              ],
+              "accept": [
+                "jeg vil ha kaffe"
+              ]
+            },
+            {
+              "id": "e2",
+              "kind": "fillBlank",
+              "prompt": "Jeg ___ ha vann.",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "vil"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "orderWords",
+              "prompt": "Build: “I would like tea”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "jeg",
+                "vil",
+                "ha",
+                "te",
+                "vann"
+              ],
+              "accept": [
+                "jeg vil ha te"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "jeg vil ha melk",
+              "choices": [
+                "jeg vil ha melk",
+                "jeg har melk",
+                "vil du ha melk",
+                "ha det melk"
+              ],
+              "accept": [
+                "jeg vil ha melk"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "readAnswer",
+              "prompt": "Polite closing?",
+              "passage": "En kaffe, takk.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "takk",
+                "nei",
+                "hei"
+              ],
+              "accept": [
+                "takk"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Jeg vil ha…",
+                  "right": "I would like…"
+                },
+                {
+                  "id": "p2",
+                  "left": "Vær så god",
+                  "right": "Here you are / please"
+                },
+                {
+                  "id": "p3",
+                  "left": "Kan jeg få…",
+                  "right": "Can I have…"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "kan jeg få te",
+              "accept": [
+                "kan jeg få te"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to Norwegian: “Here you are”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "vær så god",
+                "var sa god"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-u3-l3-food-words",
+          "title": "Simple food",
+          "microSkill": "Brød, ost, eple",
+          "cefrTarget": "A1",
+          "norskprovenSkills": [
+            "lese",
+            "lytte"
+          ],
+          "canDoIds": [
+            "a1-food-words"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "matchPairs",
+              "prompt": "Match food.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "brød",
+                  "right": "bread"
+                },
+                {
+                  "id": "p2",
+                  "left": "ost",
+                  "right": "cheese"
+                },
+                {
+                  "id": "p3",
+                  "left": "eple",
+                  "right": "apple"
+                },
+                {
+                  "id": "p4",
+                  "left": "fisk",
+                  "right": "fish"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e2",
+              "kind": "listenChoose",
+              "prompt": "What food?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "ost",
+              "choices": [
+                "brød",
+                "ost",
+                "eple",
+                "fisk"
+              ],
+              "accept": [
+                "ost"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "translate",
+              "prompt": "Translate: “apple”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "eple"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "fillBlank",
+              "prompt": "Jeg spiser ___. (bread)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "brød",
+                "brod"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "readAnswer",
+              "prompt": "What is on the table?",
+              "passage": "På bordet ligger brød og ost.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "fish",
+                "bread and cheese",
+                "only apple"
+              ],
+              "accept": [
+                "bread and cheese"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "orderWords",
+              "prompt": "Build: “I eat fish”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "jeg",
+                "spiser",
+                "fisk",
+                "ost",
+                "te"
+              ],
+              "accept": [
+                "jeg spiser fisk"
+              ]
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "brød og ost",
+              "accept": [
+                "brød og ost",
+                "brod og ost"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “fisk”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "fish"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "a1-u3-food-cp",
+        "title": "Food checkpoint",
+        "norskprovenSkills": [
+          "lese",
+          "lytte"
+        ],
+        "exercises": [
+          {
+            "id": "cp1",
+            "kind": "listenChoose",
+            "prompt": "Drink?",
+            "skills": [
+              "lytte"
+            ],
+            "audioText": "te takk",
+            "choices": [
+              "te takk",
+              "kaffe nei",
+              "vann hei",
+              "melk ha"
+            ],
+            "accept": [
+              "te takk"
+            ],
+            "audioRef": "a1-u3-food-cp-cp1"
+          },
+          {
+            "id": "cp2",
+            "kind": "translate",
+            "prompt": "Translate: “I would like water”",
+            "skills": [
+              "skrive"
+            ],
+            "accept": [
+              "jeg vil ha vann"
+            ]
+          },
+          {
+            "id": "cp3",
+            "kind": "readAnswer",
+            "prompt": "What is offered?",
+            "passage": "Vær så god — en kaffe.",
+            "skills": [
+              "lese"
+            ],
+            "choices": [
+              "tea",
+              "coffee",
+              "cheese"
+            ],
+            "accept": [
+              "coffee"
+            ]
+          },
+          {
+            "id": "cp4",
+            "kind": "fillBlank",
+            "prompt": "Kan jeg ___ ost?",
+            "skills": [
+              "skrive"
+            ],
+            "accept": [
+              "få",
+              "fa"
+            ]
+          },
+          {
+            "id": "cp5",
+            "kind": "matchPairs",
+            "prompt": "Match.",
+            "skills": [
+              "lese"
+            ],
+            "pairs": [
+              {
+                "id": "p1",
+                "left": "brød",
+                "right": "bread"
+              },
+              {
+                "id": "p2",
+                "left": "eple",
+                "right": "apple"
+              }
+            ],
+            "accept": []
+          },
+          {
+            "id": "cp6",
+            "kind": "dictation",
+            "prompt": "Listen and type.",
+            "skills": [
+              "lytte",
+              "skrive"
+            ],
+            "audioText": "jeg vil ha kaffe",
+            "accept": [
+              "jeg vil ha kaffe"
+            ],
+            "audioRef": "a1-u3-food-cp-cp6"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "track": "Bokmål",
+  "units": [
+    {
+      "id": "a1-u1-greetings",
+      "title": "Greetings & introductions",
+      "theme": "Meeting people",
+      "cefr": "A1",
+      "grammarFocus": "Present of være/hete; polite forms",
+      "lessons": [
+        {
+          "id": "a1-u1-l1-hello",
+          "title": "Hello & goodbye",
+          "microSkill": "Core greetings",
+          "cefrTarget": "A1",
+          "norskprovenSkills": [
+            "lese",
+            "lytte"
+          ],
+          "canDoIds": [
+            "a1-greet-basic"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "matchPairs",
+              "prompt": "Match the Norwegian greeting to English.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "hei",
+                  "right": "hi"
+                },
+                {
+                  "id": "p2",
+                  "left": "god morgen",
+                  "right": "good morning"
+                },
+                {
+                  "id": "p3",
+                  "left": "ha det",
+                  "right": "bye"
+                },
+                {
+                  "id": "p4",
+                  "left": "takk",
+                  "right": "thanks"
+                }
+              ],
+              "accept": [],
+              "explanation": "Hei is the everyday hello; ha det is a common goodbye."
+            },
+            {
+              "id": "e2",
+              "kind": "translate",
+              "prompt": "Translate to Norwegian: “Hi”",
+              "skills": [
+                "skrive",
+                "lese"
+              ],
+              "wordBank": [
+                "hei",
+                "ha",
+                "det",
+                "takk",
+                "ja"
+              ],
+              "accept": [
+                "hei"
+              ],
+              "explanation": "Hei works for hi/hello in most situations."
+            },
+            {
+              "id": "e3",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "god morgen",
+              "choices": [
+                "god morgen",
+                "god natt",
+                "ha det",
+                "unnskyld"
+              ],
+              "accept": [
+                "god morgen"
+              ],
+              "explanation": "God morgen = good morning."
+            },
+            {
+              "id": "e4",
+              "kind": "orderWords",
+              "prompt": "Build: “Goodbye”",
+              "skills": [
+                "skrive",
+                "lese"
+              ],
+              "orderTokens": [
+                "ha",
+                "det",
+                "takk",
+                "hei"
+              ],
+              "accept": [
+                "ha det"
+              ],
+              "explanation": "Ha det (literally “have it”) is a friendly bye."
+            },
+            {
+              "id": "e5",
+              "kind": "fillBlank",
+              "prompt": "Complete: “___ morgen!” (good morning)",
+              "skills": [
+                "lese",
+                "skrive"
+              ],
+              "accept": [
+                "god"
+              ],
+              "explanation": "God morgen."
+            },
+            {
+              "id": "e6",
+              "kind": "dictation",
+              "prompt": "Listen and type what you hear.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "takk",
+              "accept": [
+                "takk"
+              ],
+              "explanation": "Takk = thanks."
+            },
+            {
+              "id": "e7",
+              "kind": "readAnswer",
+              "prompt": "Which word means “thanks”?",
+              "passage": "Når noen gir deg noe, sier du ofte «takk».",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "hei",
+                "takk",
+                "nei",
+                "unnskyld"
+              ],
+              "accept": [
+                "takk"
+              ],
+              "explanation": "Takk is thanks / thank you."
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “Ha det”",
+              "skills": [
+                "lese"
+              ],
+              "wordBank": [
+                "bye",
+                "hello",
+                "please",
+                "sorry",
+                "yes"
+              ],
+              "accept": [
+                "bye",
+                "goodbye",
+                "good bye"
+              ],
+              "explanation": "Ha det ≈ bye / goodbye."
+            }
+          ]
+        },
+        {
+          "id": "a1-u1-l2-names",
+          "title": "What's your name?",
+          "microSkill": "Hete / hete jeg",
+          "cefrTarget": "A1",
+          "norskprovenSkills": [
+            "lese",
+            "skrive",
+            "snakke"
+          ],
+          "canDoIds": [
+            "a1-introduce-name"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "fillBlank",
+              "prompt": "Jeg ___ Anna. (My name is Anna)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "heter"
+              ],
+              "explanation": "Å hete = to be called. Jeg heter…"
+            },
+            {
+              "id": "e2",
+              "kind": "translate",
+              "prompt": "Translate: “What is your name?”",
+              "skills": [
+                "skrive",
+                "lese"
+              ],
+              "wordBank": [
+                "hva",
+                "heter",
+                "du",
+                "jeg",
+                "er"
+              ],
+              "accept": [
+                "hva heter du",
+                "hva heter du?"
+              ],
+              "explanation": "Hva heter du?"
+            },
+            {
+              "id": "e3",
+              "kind": "orderWords",
+              "prompt": "Build: “My name is Erik”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "jeg",
+                "heter",
+                "erik",
+                "du",
+                "hva"
+              ],
+              "accept": [
+                "jeg heter erik"
+              ],
+              "explanation": "Jeg heter Erik."
+            },
+            {
+              "id": "e4",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "hva heter du",
+              "choices": [
+                "hva heter du",
+                "jeg heter du",
+                "hvordan har du det",
+                "hvor bor du"
+              ],
+              "accept": [
+                "hva heter du"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "readAnswer",
+              "prompt": "What is the person's name?",
+              "passage": "Hei! Jeg heter Nora. Jeg kommer fra Bergen.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "Bergen",
+                "Nora",
+                "Hei",
+                "kommer"
+              ],
+              "accept": [
+                "Nora",
+                "nora"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "matchPairs",
+              "prompt": "Match phrases.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "Jeg heter…",
+                  "right": "My name is…"
+                },
+                {
+                  "id": "p2",
+                  "left": "Hva heter du?",
+                  "right": "What is your name?"
+                },
+                {
+                  "id": "p3",
+                  "left": "Hyggelig å møte deg",
+                  "right": "Nice to meet you"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "jeg heter lisa",
+              "accept": [
+                "jeg heter lisa"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to Norwegian: “Nice to meet you”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "hyggelig å møte deg",
+                "hyggelig a mote deg"
+              ],
+              "explanation": "Hyggelig å møte deg."
+            }
+          ]
+        },
+        {
+          "id": "a1-u1-l3-how-are-you",
+          "title": "How are you?",
+          "microSkill": "Hvordan har du det",
+          "cefrTarget": "A1",
+          "norskprovenSkills": [
+            "lytte",
+            "lese",
+            "snakke"
+          ],
+          "canDoIds": [
+            "a1-ask-wellbeing"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "translate",
+              "prompt": "Translate: “How are you?”",
+              "skills": [
+                "skrive"
+              ],
+              "wordBank": [
+                "hvordan",
+                "har",
+                "du",
+                "det",
+                "bra"
+              ],
+              "accept": [
+                "hvordan har du det",
+                "hvordan har du det?"
+              ],
+              "explanation": "Hvordan har du det?"
+            },
+            {
+              "id": "e2",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "jeg har det bra",
+              "choices": [
+                "jeg har det bra",
+                "jeg heter bra",
+                "ha det bra",
+                "det går bra"
+              ],
+              "accept": [
+                "jeg har det bra"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "fillBlank",
+              "prompt": "Jeg har det ___. (I'm fine)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "bra"
+              ],
+              "explanation": "Bra = fine / good."
+            },
+            {
+              "id": "e4",
+              "kind": "orderWords",
+              "prompt": "Build: “I'm fine”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "jeg",
+                "har",
+                "det",
+                "bra",
+                "du"
+              ],
+              "accept": [
+                "jeg har det bra"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "readAnswer",
+              "prompt": "Does Kim feel well?",
+              "passage": "— Hvordan har du det, Kim?\n— Jeg har det bra, takk!",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "Yes",
+                "No",
+                "Unclear"
+              ],
+              "accept": [
+                "Yes",
+                "yes"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "bra",
+                  "right": "fine / good"
+                },
+                {
+                  "id": "p2",
+                  "left": "takk",
+                  "right": "thanks"
+                },
+                {
+                  "id": "p3",
+                  "left": "hvordan",
+                  "right": "how"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "hvordan har du det",
+              "accept": [
+                "hvordan har du det"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “Jeg har det bra”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "i am fine",
+                "i'm fine",
+                "im fine",
+                "i feel fine",
+                "i'm good",
+                "i am good"
+              ],
+              "explanation": "Jeg har det bra ≈ I'm fine."
+            }
+          ]
+        }
+      ],
+      "claimTarget": "A1",
+      "checkpoint": {
+        "id": "a1-u1-greetings-cp",
+        "title": "Greetings checkpoint",
+        "norskprovenSkills": [
+          "lese",
+          "lytte"
+        ],
+        "exercises": [
+          {
+            "id": "cp1",
+            "kind": "readAnswer",
+            "prompt": "In the dialogue, how does Mia say goodbye?",
+            "passage": "— Ha det, Mia!\n— Ha det, Jon! Vi sees.",
+            "skills": [
+              "lese"
+            ],
+            "choices": [
+              "Ha det",
+              "Hei",
+              "Takk",
+              "God natt"
+            ],
+            "accept": [
+              "Ha det"
+            ],
+            "explanation": "Ha det = goodbye."
+          },
+          {
+            "id": "cp2",
+            "kind": "listenChoose",
+            "prompt": "What do you hear?",
+            "skills": [
+              "lytte"
+            ],
+            "audioText": "hyggelig å møte deg",
+            "choices": [
+              "hyggelig å møte deg",
+              "hvordan har du det",
+              "jeg heter deg",
+              "god morgen"
+            ],
+            "accept": [
+              "hyggelig å møte deg"
+            ],
+            "audioRef": "a1-u1-greetings-cp-cp2"
+          },
+          {
+            "id": "cp3",
+            "kind": "translate",
+            "prompt": "Translate to Norwegian: “What is your name?”",
+            "skills": [
+              "skrive",
+              "lese"
+            ],
+            "accept": [
+              "hva heter du",
+              "hva heter du?"
+            ],
+            "explanation": "Checkpoint item — not copied from lesson e2 wording alone."
+          },
+          {
+            "id": "cp4",
+            "kind": "fillBlank",
+            "prompt": "God ___! (good morning)",
+            "skills": [
+              "lese",
+              "skrive"
+            ],
+            "accept": [
+              "morgen"
+            ]
+          },
+          {
+            "id": "cp5",
+            "kind": "orderWords",
+            "prompt": "Build: “I'm fine”",
+            "skills": [
+              "skrive"
+            ],
+            "orderTokens": [
+              "jeg",
+              "har",
+              "det",
+              "bra",
+              "takk"
+            ],
+            "accept": [
+              "jeg har det bra"
+            ]
+          },
+          {
+            "id": "cp6",
+            "kind": "dictation",
+            "prompt": "Listen and type.",
+            "skills": [
+              "lytte",
+              "skrive"
+            ],
+            "audioText": "hei jeg heter karl",
+            "accept": [
+              "hei jeg heter karl"
+            ],
+            "audioRef": "a1-u1-greetings-cp-cp6"
+          }
+        ]
+      }
+    }
+  ]
+}

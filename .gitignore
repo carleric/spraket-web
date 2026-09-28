@@ -1,0 +1,14 @@
+node_modules
+dist
+*.local
+.DS_Store
+coverage
+.dev-dist
+*.log
+.vite
+.work-root
+.spraket-worktree
+package-lock.json
+.pnp.cjs
+.pnp.loader.mjs
+.rename-test-*

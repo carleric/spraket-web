@@ -1,0 +1,552 @@
+{
+  "version": 1,
+  "track": "Bokmål",
+  "units": [
+    {
+      "id": "b1-u2-work",
+      "title": "Workplace messages",
+      "theme": "Email and meetings",
+      "cefr": "B1",
+      "claimTarget": "B1",
+      "grammarFocus": "Polite requests; møte / avtale; past vs present in updates",
+      "lessons": [
+        {
+          "id": "b1-u2-l1-email",
+          "title": "Email basics",
+          "microSkill": "Hei / vennlig hilsen",
+          "cefrTarget": "B1",
+          "norskprovenSkills": [
+            "lese",
+            "skrive"
+          ],
+          "canDoIds": [
+            "b1-email"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "vedlegg",
+                  "right": "attachment"
+                },
+                {
+                  "id": "p2",
+                  "left": "vennlig hilsen",
+                  "right": "kind regards"
+                },
+                {
+                  "id": "p3",
+                  "left": "emne",
+                  "right": "subject"
+                },
+                {
+                  "id": "p4",
+                  "left": "svar",
+                  "right": "reply"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e2",
+              "kind": "translate",
+              "prompt": "Translate: “Please see the attachment”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "se vedlegget",
+                "vennligst se vedlegget",
+                "se i vedlegget"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "fillBlank",
+              "prompt": "___ hilsen, Anna",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "vennlig"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "readAnswer",
+              "prompt": "What is attached?",
+              "passage": "Hei,\nJeg sender rapporten i vedlegget.\nVennlig hilsen\nLars",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "a report",
+                "a photo",
+                "nothing"
+              ],
+              "accept": [
+                "a report"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "orderWords",
+              "prompt": "Build: “kind regards”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "vennlig",
+                "hilsen",
+                "hei",
+                "svar"
+              ],
+              "accept": [
+                "vennlig hilsen"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "kan du svare innen fredag",
+              "choices": [
+                "kan du svare innen fredag",
+                "kan du komme i morgen",
+                "hvor er møtet",
+                "send vedlegget"
+              ],
+              "accept": [
+                "kan du svare innen fredag"
+              ]
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "vennlig hilsen",
+              "accept": [
+                "vennlig hilsen"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “vedlegg”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "attachment",
+                "an attachment"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b1-u2-l2-meetings",
+          "title": "Meetings",
+          "microSkill": "Møte / avtale",
+          "cefrTarget": "B1",
+          "norskprovenSkills": [
+            "lese",
+            "lytte",
+            "skrive"
+          ],
+          "canDoIds": [
+            "b1-meeting"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "translate",
+              "prompt": "Translate: “Can we meet tomorrow?”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "kan vi møtes i morgen",
+                "kan vi møte i morgen"
+              ]
+            },
+            {
+              "id": "e2",
+              "kind": "fillBlank",
+              "prompt": "Møtet er klokken ___. (ten)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "ti",
+                "10"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "skal vi flytte møtet",
+              "choices": [
+                "skal vi flytte møtet",
+                "skal vi sende e-post",
+                "hvor er kontoret",
+                "jeg er sen"
+              ],
+              "accept": [
+                "skal vi flytte møtet"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "readAnswer",
+              "prompt": "When is the meeting?",
+              "passage": "Avtalen er flyttet til tirsdag klokken ti.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "Monday 10",
+                "Tuesday 10",
+                "Friday"
+              ],
+              "accept": [
+                "Tuesday 10"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "orderWords",
+              "prompt": "Build: “Shall we move the meeting?”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "skal",
+                "vi",
+                "flytte",
+                "møtet",
+                "sende"
+              ],
+              "accept": [
+                "skal vi flytte møtet"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "avtale",
+                  "right": "appointment / agreement"
+                },
+                {
+                  "id": "p2",
+                  "left": "flytte",
+                  "right": "to move / reschedule"
+                },
+                {
+                  "id": "p3",
+                  "left": "delta",
+                  "right": "to participate"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "kan vi møtes i morgen",
+              "accept": [
+                "kan vi møtes i morgen"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “delta”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "participate",
+                "to participate",
+                "take part"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b1-u2-l3-status",
+          "title": "Status updates",
+          "microSkill": "Jeg har… / jeg skal…",
+          "cefrTarget": "B1",
+          "norskprovenSkills": [
+            "lese",
+            "skrive",
+            "lytte"
+          ],
+          "canDoIds": [
+            "b1-status"
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "kind": "translate",
+              "prompt": "Translate: “I have finished the report”",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "jeg har fullført rapporten",
+                "jeg har ferdig rapporten",
+                "jeg er ferdig med rapporten"
+              ]
+            },
+            {
+              "id": "e2",
+              "kind": "fillBlank",
+              "prompt": "Jeg ___ sende den i dag. (will/shall)",
+              "skills": [
+                "skrive"
+              ],
+              "accept": [
+                "skal"
+              ]
+            },
+            {
+              "id": "e3",
+              "kind": "listenChoose",
+              "prompt": "What do you hear?",
+              "skills": [
+                "lytte"
+              ],
+              "audioText": "jeg har sendt e-posten",
+              "choices": [
+                "jeg har sendt e-posten",
+                "jeg skal sende e-posten",
+                "kan du svare",
+                "møtet er i morgen"
+              ],
+              "accept": [
+                "jeg har sendt e-posten"
+              ]
+            },
+            {
+              "id": "e4",
+              "kind": "readAnswer",
+              "prompt": "Is the task done?",
+              "passage": "Status: Jeg har fullført utkastet og skal sende det innen klokken tre.",
+              "skills": [
+                "lese"
+              ],
+              "choices": [
+                "Draft done, sending later",
+                "Not started",
+                "Cancelled"
+              ],
+              "accept": [
+                "Draft done, sending later"
+              ]
+            },
+            {
+              "id": "e5",
+              "kind": "orderWords",
+              "prompt": "Build: “I have sent the email”",
+              "skills": [
+                "skrive"
+              ],
+              "orderTokens": [
+                "jeg",
+                "har",
+                "sendt",
+                "e-posten",
+                "skal"
+              ],
+              "accept": [
+                "jeg har sendt e-posten"
+              ]
+            },
+            {
+              "id": "e6",
+              "kind": "matchPairs",
+              "prompt": "Match.",
+              "skills": [
+                "lese"
+              ],
+              "pairs": [
+                {
+                  "id": "p1",
+                  "left": "fullført",
+                  "right": "completed"
+                },
+                {
+                  "id": "p2",
+                  "left": "utkast",
+                  "right": "draft"
+                },
+                {
+                  "id": "p3",
+                  "left": "frist",
+                  "right": "deadline"
+                }
+              ],
+              "accept": []
+            },
+            {
+              "id": "e7",
+              "kind": "dictation",
+              "prompt": "Listen and type.",
+              "skills": [
+                "lytte",
+                "skrive"
+              ],
+              "audioText": "fristen er i morgen",
+              "accept": [
+                "fristen er i morgen"
+              ]
+            },
+            {
+              "id": "e8",
+              "kind": "translate",
+              "prompt": "Translate to English: “frist”",
+              "skills": [
+                "lese"
+              ],
+              "accept": [
+                "deadline"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "b1-u2-work-cp",
+        "title": "Workplace checkpoint",
+        "norskprovenSkills": [
+          "lese",
+          "lytte"
+        ],
+        "exercises": [
+          {
+            "id": "cp1",
+            "kind": "listenChoose",
+            "prompt": "What do you hear?",
+            "skills": [
+              "lytte"
+            ],
+            "audioText": "kan du svare innen fredag",
+            "choices": [
+              "kan du svare innen fredag",
+              "møtet er avlyst",
+              "send rapporten nå",
+              "jeg er enig"
+            ],
+            "accept": [
+              "kan du svare innen fredag"
+            ],
+            "audioRef": "b1-u2-work-cp-cp1"
+          },
+          {
+            "id": "cp2",
+            "kind": "translate",
+            "prompt": "Translate: “Kind regards”",
+            "skills": [
+              "skrive"
+            ],
+            "accept": [
+              "vennlig hilsen"
+            ]
+          },
+          {
+            "id": "cp3",
+            "kind": "readAnswer",
+            "prompt": "What changed?",
+            "passage": "Møtet er flyttet til onsdag. Se vedlegget for agenda.",
+            "skills": [
+              "lese"
+            ],
+            "choices": [
+              "Cancelled",
+              "Rescheduled to Wednesday",
+              "No change"
+            ],
+            "accept": [
+              "Rescheduled to Wednesday"
+            ]
+          },
+          {
+            "id": "cp4",
+            "kind": "fillBlank",
+            "prompt": "Jeg har ___ rapporten. (finished/completed)",
+            "skills": [
+              "skrive"
+            ],
+            "accept": [
+              "fullført",
+              "ferdig"
+            ]
+          },
+          {
+            "id": "cp5",
+            "kind": "orderWords",
+            "prompt": "Build: “Shall we move the meeting?”",
+            "skills": [
+              "skrive"
+            ],
+            "orderTokens": [
+              "skal",
+              "vi",
+              "flytte",
+              "møtet",
+              "sende"
+            ],
+            "accept": [
+              "skal vi flytte møtet"
+            ]
+          },
+          {
+            "id": "cp6",
+            "kind": "dictation",
+            "prompt": "Listen and type.",
+            "skills": [
+              "lytte",
+              "skrive"
+            ],
+            "audioText": "se vedlegget",
+            "accept": [
+              "se vedlegget"
+            ],
+            "audioRef": "b1-u2-work-cp-cp6"
+          }
+        ]
+      }
+    }
+  ]
+}
